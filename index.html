@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Mi primer formulario</h1>
+    <br>
+    <h1>Formularios para texto</h1>
+    <form action="">
+        <label for="texto">Texto</label>
+        <input type="text" name="texto" id="campo-texto">
+        <br>
+        <label for="busqueda">Busqueda</label>
+        <input type="search" name="busqueda" id="campo-busqueda">
+        <br>
+        <label for="URL">URL</label>
+        <input type="url" name="URL" id="campo-url">
+        <br>
+        <label for="email">Correo Electronico</label>
+        <input type="email" name="email" id="campo-correo">
+        <br>
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="contraseña" id="campo-contraseña">
+        <br>
+        <label for="area de texto">Area de Texto</label>
+        <textarea name="area de texto" id="campo-area"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+    <br>
 
+<h1>Formularios para numeros</h1>
+    <form action="">
+        <label for="Numeros">Numeros</label>
+        <input type="number" name="Numeros" id="campo-numeros">
+        <br>
+        <label for="rangos">Rangos</label>
+        <input type="range" name="rangos" id="campo-rangos">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+
+<h1>Formularios para fecha y hora</h1>
+    <form action="">
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" id="campo-fecha">
+        <br>
+        <label for="hora">Hora</label>
+        <input type="time" name="hora" id="campo-hora">
+        <br>
+        <label for="fecha y hora">Fecha y Hora</label>
+        <input type="datetime-local" name="fecha y hora" id="campo-fecha-hora">
+        <br>
+        <label for="mes">Mes</label>
+        <input type="month" name="mes" id="campo-mes">
+        <br>
+        <label for="semana">Semana</label>
+        <input type="week" name="semana" id="campo-semana">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+
+<h1>Formulario de Selección</h1>
+    <form action="">
+        <label for="radio">Botton de Radio</label>
+        <input type="radio" name="radio" id="campp-radio">
+        <br>
+        <label for="checkbox">Checkbox</label>
+        <input type="checkbox" name="checkbox" id="campo-checkbox">
+        <br>
+        <label for="color">Colores</label>
+        <input type="color" name="color" id="campo-color">
+        <br>
+        <label for="opcion">Selecciona - opción</label>
+        <select name="opcion" id="campo-opción">
+            <option value="1">Opción 1</option>
+            <option value="2">Opción 2</option>
+            <option value="3">Opción 3</option>
+        </select>
+        <br>
+        <select multiple> Selección multiple
+            <option value="">Selección 1</option>
+            <option value="">Selección 2</option>
+            <option value="">Selección 3</option>
+        </select>
+        <br>
+        <label for="datalist">Lista de Datos</label>
+        <input type="text" list="items">
+        <datalist id="items">
+            <option value="1">Selección 1</option>
+            <option value="2">Selección 2</option>
+            <option value="3">Selección 3</option>
+        </datalist>
+    </form>
+
+    </body>
+</html>
